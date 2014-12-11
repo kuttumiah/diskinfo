@@ -36,8 +36,8 @@ echo.                             DiskInfo Version 0.1
 echo ===============================================================================
 
 :checkPrivileges
-mkdir "%windir%\SlaxAdminCheck" 2>nul
-if '%errorlevel%' == '0' rmdir "%windir%\SlaxAdminCheck" & goto gotPrivileges else goto getPrivileges
+mkdir "%windir%\AdminCheck" 2>nul
+if '%errorlevel%' == '0' rmdir "%windir%\AdminCheck" & goto gotPrivileges else goto getPrivileges
 
 :getPrivileges
 ECHO.
